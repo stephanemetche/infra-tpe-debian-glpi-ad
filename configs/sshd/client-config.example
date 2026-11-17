@@ -1,0 +1,7 @@
+# %USERPROFILE%\.ssh\config (poste d'administration Windows)
+# Permet de se connecter simplement avec : ssh srvglpi01
+Host srvglpi01
+    HostName 192.168.60.20
+    Port 2222
+    User stephane
+    IdentityFile ~/.ssh/glpi_key

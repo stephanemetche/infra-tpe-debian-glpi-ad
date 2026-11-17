@@ -1,0 +1,4 @@
+# /etc/glpi-agent/conf.d/20-auth.cfg  (droits 600, propriétaire root)
+# Identifiants dédiés aux agents d'inventaire (authentification basique exigée par GLPI 12)
+user = agent-inventaire
+password = <mot-de-passe-des-agents>
